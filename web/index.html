@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<iframe src="" frameborder="0" id="iframe" name="iframe"></iframe>
+<form action="//127.0.0.1:3210/api/words/upload" method="post" id="form" enctype="multipart/form-data" target="iframe">
+    <input type="file" name="file" id="file">
+    <input type="submit" id="submit">
+</form>
+<script>
+    var $ = document.querySelector.bind(document)
+    var $$ = document.querySelectorAll.bind(document)
+    var $form = $('#form')
+    var $submit = $('#submit')
+    var $file = $('#file')
+
+    $submit.addEventListener('click', function (e) {
+
+    })
+</script>
+</body>
+</html>
